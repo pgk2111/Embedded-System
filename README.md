@@ -30,3 +30,5 @@ EE3427 class
 | GSM Module (SIM800L, Optional) | Sends SMS alerts |
 | Relay Module | Controls lights or locks |
 | Battery Backup | Ensures security during power cuts |
+# Block-Diagram
+https://github.com/pgk2111/Embedded-System/blob/main/image.png
