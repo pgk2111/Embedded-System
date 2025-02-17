@@ -16,3 +16,17 @@ EE3427 class
 3.	Security & Encryption: The system shall use AES encryption for secure communication with the mobile app/cloud.
 4.	Scalability: The system shall support additional sensors, cameras, and cloud-based features for future enhancements.
 5.	Reliability & Uptime: The system shall maintain at least 99.5% uptime, ensuring continuous security monitoring.
+# Components
+| **Component** | **Specification** |
+| --- | --- |
+| Microcontroller | STM32F103C8 (Blue Pill) |
+| PIR Motion Sensor | HC-SR501 |
+| Flame Sensor | IR Flame Sensor Module |
+| Magnetic Door/Window Sensor | Detects forced entry |
+| Buzzer | Sounds alarm |
+| OLED Display (0.96” I2C) | Shows security status |
+| Camera Module (OV7670, Optional) | Captures images on intrusion |
+| Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app |
+| GSM Module (SIM800L, Optional) | Sends SMS alerts |
+| Relay Module | Controls lights or locks |
+| Battery Backup | Ensures security during power cuts |
