@@ -31,4 +31,4 @@ EE3427 class
 | Relay Module | Controls lights or locks |
 | Battery Backup | Ensures security during power cuts |
 # Block-Diagram
-https://github.com/pgk2111/Embedded-System/blob/main/image.png
+![Image](https://github.com/user-attachments/assets/2b6a18fe-c4dc-44c9-8c47-ec5dca0bbe3b)
