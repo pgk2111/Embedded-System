@@ -2,7 +2,7 @@
 EE3427 class
 # Smart-Home-Security-System-using-STM32
 1. Functional Requirements
-1.	 Intrusion Detection: The system shall detect motion using PIR sensors and unauthorized entry via magnetic door/window sensors.
+  1.	 Intrusion Detection: The system shall detect motion using PIR sensors and unauthorized entry via magnetic door/window sensors.
 2.	Flam Detection: The system shall detect when a fire or flame occurs.
 3.	Alarm Activation: The system shall trigger a buzzer alarm upon detecting unauthorized entry.
 4.	Alert Notifications: The system shall send real-time SMS notifications via GSM and/or mobile app alerts via Wi-Fi when an intrusion is detected.
