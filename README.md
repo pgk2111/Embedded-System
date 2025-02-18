@@ -20,15 +20,16 @@ EE3427 class
 | **Component** | **Specification** |
 | --- | --- |
 | Microcontroller | STM32F103RCT6 |
-| PIR Motion Sensor | HC-SR501 |
-| Flame Sensor | IR Flame Sensor Module (HS0242) |
-| Magnetic Door/Window Sensor | Detects forced entry (HS0253) |
+| PIR Motion Sensor | Motion detection using changes in infrared radiation |
+| Flame Sensor | Flame detection |
+| Magnetic Door/Window Sensor | Detects forced entry |
 | Buzzer | Sounds alarm |
-| OLED Display | Shows security status (0.96” I2C) |
-| Camera Module (Optional) | Captures images on intrusion (OV7670) |
-| Wi-Fi Module | Sends alerts to a mobile app (ESP8266/ESP32) |
-| GSM Module (Optional) | Sends SMS alerts (SIM800L) |
-| Relay Module | Controls lights or locks |
+| OLED Display (0.96” I2C) | Shows security status |
+| Camera Module (OV7670, Optional) | Captures images on intrusion |
+| Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app |
+| GSM Module (SIM800L, Optional) | Sends SMS alerts |
+| Relay Module | Controls lights and locks |
 | Battery Backup | Ensures security during power cuts |
+## Explaination
 # Block-Diagram
 ![Image](https://github.com/user-attachments/assets/5dde3028-7999-4c93-9234-fc501d587500)
