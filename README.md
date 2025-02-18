@@ -17,6 +17,7 @@ EE3427 class
 4.	Scalability: The system shall support additional sensors, cameras, and cloud-based features for future enhancements.
 5.	Reliability & Uptime: The system shall maintain at least 99.5% uptime, ensuring continuous security monitoring.
 # Components
+## Requirement
 | **Component** | **Specification** |
 | --- | --- |
 | Microcontroller | STM32F103RCT6 |
@@ -30,6 +31,9 @@ EE3427 class
 | GSM Module (SIM800L, Optional) | Sends SMS alerts |
 | Relay Module | Controls lights and locks |
 | Battery Backup | Ensures security during power cuts |
+## Expected
+![Image](https://github.com/user-attachments/assets/8d9068e5-2a75-4f72-8b49-2fd3407e9df2)
+![Image](https://github.com/user-attachments/assets/9446df2c-f4c6-4857-bb5d-66dc713f8c78)
 ## Explaination
 # Block-Diagram
 ![Image](https://github.com/user-attachments/assets/5dde3028-7999-4c93-9234-fc501d587500)
