@@ -24,10 +24,10 @@ EE3427 class
 | Flame Sensor | IR Flame Sensor Module (HS0242) |
 | Magnetic Door/Window Sensor | Detects forced entry |
 | Buzzer | Sounds alarm |
-| OLED Display (0.96” I2C) | Shows security status |
-| Camera Module (OV7670, Optional) | Captures images on intrusion |
-| Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app |
-| GSM Module (SIM800L, Optional) | Sends SMS alerts |
+| OLED Display | Shows security status (0.96” I2C) |
+| Camera Module (Optional) | Captures images on intrusion (OV7670) |
+| Wi-Fi Module | Sends alerts to a mobile app (ESP8266/ESP32) |
+| GSM Module (Optional) | Sends SMS alerts (SIM800L) |
 | Relay Module | Controls lights or locks |
 | Battery Backup | Ensures security during power cuts |
 # Block-Diagram
