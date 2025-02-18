@@ -19,7 +19,7 @@ EE3427 class
 # Components
 | **Component** | **Specification** |
 | --- | --- |
-| Microcontroller | STM32F103RC86 |
+| Microcontroller | STM32F103RCT6 |
 | PIR Motion Sensor | HC-SR501 |
 | Flame Sensor | IR Flame Sensor Module |
 | Magnetic Door/Window Sensor | Detects forced entry |
