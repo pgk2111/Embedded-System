@@ -22,7 +22,7 @@ EE3427 class
 | --- | --- | --- |
 | Microcontroller | STM32F103RCT6 | easy to use, many GPIO, USB to UART, LED, Buttons, Medium price, 5V |
 | PIR Motion Sensor | Motion detection using changes in infrared radiation | cheap, easy to use, low power |
-| Flame Sensor | Flame detection | cheap, easy to use |
+| Flame Sensor | Flame detection | cheap, easy to use, low power |
 | Magnetic Door/Window Sensor | Detects forced entry | cheap, easy to use, low power |
 | Buzzer | Sounds alarm | cheap, easy to use, low power |
 | OLED Display (0.96” I2C) | Shows security status | cheap, easy to use, low power |
