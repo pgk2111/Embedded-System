@@ -22,17 +22,17 @@ EE3427 class
 | --- | --- | --- |
 | Microcontroller | STM32F103RCT6 | easy to use, many GPIO, USB to UART, LED, Buttons, Medium price, 5V |
 | PIR Motion Sensor | Motion detection using changes in infrared radiation | cheap, easy to use, low power |
-| Flame Sensor | Flame detection | cheap, easy to use, low power |
+| Flame Sensor | Flame detection | cheap, easy to use, fast response ,low power |
 | Magnetic Door/Window Sensor | Detects forced entry | cheap, easy to use, low power |
 | Buzzer | Sounds alarm | cheap, easy to use, low power |
-| OLED Display (0.96” I2C) | Shows security status | cheap, easy to use, low power |
+| OLED Display (0.96” I2C) | Shows security status | cheap, easy to use, low power, I2C |
 | Camera Module (OV7670, Optional) | Captures images on intrusion | cheap, easy to use, low power |
-| Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app | cheap compare to other module, UART, low power |
+| Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app | medium price, easy to connect, low power, Connected to wifi |
 | GSM Module (SIM800L, Optional) | Sends SMS alerts | Optional might add in the process |
 | Relay Module | Controls lights and locks | 4 relay for 2 doors and 2 lights |
 | Battery Backup | Ensures security during power cuts | to secure power efficiency |
-## Expected
-![Image](https://github.com/user-attachments/assets/8d9068e5-2a75-4f72-8b49-2fd3407e9df2)
-![Image](https://github.com/user-attachments/assets/9446df2c-f4c6-4857-bb5d-66dc713f8c78)
 # Block-Diagram
 ![Image](https://github.com/user-attachments/assets/5dde3028-7999-4c93-9234-fc501d587500)
+# Expected
+![Image](https://github.com/user-attachments/assets/8d9068e5-2a75-4f72-8b49-2fd3407e9df2)
+![Image](https://github.com/user-attachments/assets/9446df2c-f4c6-4857-bb5d-66dc713f8c78)
