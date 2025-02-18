@@ -22,7 +22,7 @@ EE3427 class
 | Microcontroller | STM32F103RCT6 |
 | PIR Motion Sensor | HC-SR501 |
 | Flame Sensor | IR Flame Sensor Module (HS0242) |
-| Magnetic Door/Window Sensor | Detects forced entry |
+| Magnetic Door/Window Sensor | Detects forced entry (HS0253) |
 | Buzzer | Sounds alarm |
 | OLED Display | Shows security status (0.96” I2C) |
 | Camera Module (Optional) | Captures images on intrusion (OV7670) |
