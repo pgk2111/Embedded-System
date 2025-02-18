@@ -18,22 +18,21 @@ EE3427 class
 5.	Reliability & Uptime: The system shall maintain at least 99.5% uptime, ensuring continuous security monitoring.
 # Components
 ## Requirement
-| **Component** | **Specification** |
-| --- | --- |
-| Microcontroller | STM32F103RCT6 |
-| PIR Motion Sensor | Motion detection using changes in infrared radiation |
-| Flame Sensor | Flame detection |
-| Magnetic Door/Window Sensor | Detects forced entry |
-| Buzzer | Sounds alarm |
-| OLED Display (0.96” I2C) | Shows security status |
-| Camera Module (OV7670, Optional) | Captures images on intrusion |
-| Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app |
-| GSM Module (SIM800L, Optional) | Sends SMS alerts |
-| Relay Module | Controls lights and locks |
-| Battery Backup | Ensures security during power cuts |
+| **Component** | **Specification** | **Reason** |
+| --- | --- | --- |
+| Microcontroller | STM32F103RCT6 | easy to use, many GPIO, USB to UART, LED, Buttons, Medium price, 5V |
+| PIR Motion Sensor | Motion detection using changes in infrared radiation | cheap, easy to use, low power |
+| Flame Sensor | Flame detection | cheap, easy to use |
+| Magnetic Door/Window Sensor | Detects forced entry | cheap, easy to use, low power |
+| Buzzer | Sounds alarm | cheap, easy to use, low power |
+| OLED Display (0.96” I2C) | Shows security status | cheap, easy to use, low power |
+| Camera Module (OV7670, Optional) | Captures images on intrusion | cheap, easy to use, low power |
+| Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app | cheap compare to other module, UART, low power |
+| GSM Module (SIM800L, Optional) | Sends SMS alerts | Optional might add in the process |
+| Relay Module | Controls lights and locks | 4 relay for 2 doors and 2 lights |
+| Battery Backup | Ensures security during power cuts | to secure power efficiency |
 ## Expected
 ![Image](https://github.com/user-attachments/assets/8d9068e5-2a75-4f72-8b49-2fd3407e9df2)
 ![Image](https://github.com/user-attachments/assets/9446df2c-f4c6-4857-bb5d-66dc713f8c78)
-## Explaination
 # Block-Diagram
 ![Image](https://github.com/user-attachments/assets/5dde3028-7999-4c93-9234-fc501d587500)
