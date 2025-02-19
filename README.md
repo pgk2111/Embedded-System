@@ -7,9 +7,10 @@ EE3427 class
 3.	Alarm Activation: The system shall trigger a buzzer alarm upon detecting unauthorized entry.
 4.	Alert Notifications: The system shall send real-time SMS notifications via GSM and/or mobile app alerts via Wi-Fi when an intrusion is detected.
 5.	Remote Arm/Disarm: The system shall allow users to enable or disable security remotely via a mobile app or SMS command.
-6.	Real-time Display: The system shall display the security status and sensor activity on an OLED screen.
-7.	Camera Capture (Optional): The system shall capture an image of the intruder using an OV7670 camera module and store/send it to a cloud server.
-8.	Power Backup Support: The system shall include a battery backup to remain operational during power failures.
+6.	Remote Control: The system shall control via an app to unlock locks and lights remotely.
+7.	Real-time Display: The system shall display the security status and sensor activity on an OLED screen.
+8.	Camera Capture (Optional): The system shall capture an image of the intruder using an OV7670 camera module and store/send it to a cloud server.
+9.	Power Backup Support: The system shall include a battery backup to remain operational during power failures.
 ## Non-Functional-Requirements
 1.	Real-time Processing: The system shall process sensor data and respond within 500 milliseconds.
 2.	Power Efficiency: The system shall operate in low-power mode when idle to conserve energy.
@@ -20,19 +21,19 @@ EE3427 class
 ## Requirement
 | **Component** | **Specification** | **Reason** |
 | --- | --- | --- |
-| Microcontroller | STM32F103RCT6 | easy to use, many GPIO, USB to UART, LED, Buttons, Medium price, 5V |
+| Microcontroller | STM32F103RCT6 | easy to use, many GPIO, many communication interfaces, LED, Buttons, Medium price, 5V |
 | PIR Motion Sensor | Motion detection using changes in infrared radiation | cheap, easy to use, low power |
 | Flame Sensor | Flame detection | cheap, easy to use, fast response ,low power |
 | Magnetic Door/Window Sensor | Detects forced entry | cheap, easy to use, low power |
 | Buzzer | Sounds alarm | cheap, easy to use, low power |
 | OLED Display (0.96” I2C) | Shows security status | cheap, easy to use, low power, I2C |
-| Camera Module (OV7670, Optional) | Captures images on intrusion | cheap, easy to use, low power |
+| Camera Module (OV7670, Optional) | Captures images on intrusion | cheap, low power |
 | Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app | medium price, easy to connect, low power, Connected to wifi |
 | GSM Module (SIM800L, Optional) | Sends SMS alerts | Optional might add in the process |
 | Relay Module | Controls lights and locks | 4 relay for 2 doors and 2 lights |
 | Battery Backup | Ensures security during power cuts | to secure power efficiency |
+| Solenoid Lock LY-03 | use for lock | easy to use, more secure |
+| LED | Act as light | low price, easy to use |
 # Block-Diagram
-![Image](https://github.com/user-attachments/assets/5dde3028-7999-4c93-9234-fc501d587500)
-# Expected
-![Image](https://github.com/user-attachments/assets/8d9068e5-2a75-4f72-8b49-2fd3407e9df2)
-![Image](https://github.com/user-attachments/assets/9446df2c-f4c6-4857-bb5d-66dc713f8c78)
+![Image](https://github.com/user-attachments/assets/1a0b7c77-b921-45b9-b5f2-d43bc38d4bd6)
+
