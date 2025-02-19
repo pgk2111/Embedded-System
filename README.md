@@ -29,10 +29,10 @@ EE3427 class
 | OLED Display (0.96” I2C) | Shows security status | cheap, easy to use, low power, I2C |
 | Camera Module (OV7670, Optional) | Captures images on intrusion | cheap, low power |
 | Wi-Fi Module (ESP8266/ESP32) | Sends alerts to a mobile app | medium price, easy to connect, low power, Connected to wifi |
-| GSM Module (SIM800L, Optional) | Sends SMS alerts | Optional might add in the process |
+| GSM Module (SIM800L, Optional) | Sends SMS alerts | optional might add in the process |
 | Relay Module | Controls lights and locks | 4 relay for 2 doors and 2 lights |
 | Battery Backup | Ensures security during power cuts | to secure power efficiency |
-| Solenoid Lock LY-03 | use for lock | easy to use, more secure |
+| Solenoid Lock LY-03 | Use for lock | easy to use, more secure |
 | LED | Act as light | low price, easy to use |
 # Block-Diagram
 ![Image](https://github.com/user-attachments/assets/1a0b7c77-b921-45b9-b5f2-d43bc38d4bd6)
