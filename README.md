@@ -35,5 +35,5 @@ EE3427 class
 | Solenoid Lock LY-03 | Use for lock | easy to use, more secure |
 | LED | Act as light | low price, easy to use |
 # Block-Diagram
-![Image](https://github.com/user-attachments/assets/1a0b7c77-b921-45b9-b5f2-d43bc38d4bd6)
+![Image](https://github.com/user-attachments/assets/589969e5-9fdd-4325-b6ae-ccaf50c71d58)
 
