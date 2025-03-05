@@ -37,4 +37,4 @@ EE3427 class
 # Block-Diagram
 ![Image](https://github.com/user-attachments/assets/589969e5-9fdd-4325-b6ae-ccaf50c71d58)
 # Schematic (sample)
-![Image](https://github.com/user-attachments/assets/a4d1e30d-19af-41c9-b345-95abcad84316)
+![Image](https://github.com/user-attachments/assets/ebcd3923-e555-4a13-8dc6-16fb4013096a)
