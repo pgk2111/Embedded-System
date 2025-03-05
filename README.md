@@ -36,4 +36,5 @@ EE3427 class
 | LED | Act as light | low price, easy to use |
 # Block-Diagram
 ![Image](https://github.com/user-attachments/assets/589969e5-9fdd-4325-b6ae-ccaf50c71d58)
-
+# Schematic (sample)
+![Image](https://github.com/user-attachments/assets/cef75c2f-00ca-4f7c-9a8f-17a84ecf7eb8)
